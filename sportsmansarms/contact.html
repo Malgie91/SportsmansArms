@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&family=Lilita+One&family=Poppins:wght@200&family=Secular+One&family=Staatliches&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header> <!--Start of header-->
+        <div class="Heading">
+            <a class="homeLink" href="./index.html">The Sportsmans Arms</a>
+        </div>
+        <div class="iconContainer">
+            <a href="https://www.facebook.com/media/set/?set=a.1000287514204730&type=3">
+                <img class="facebook" src="./images/facebook_icon.png" alt="facebook icon">
+            </a>
+        </div>
+    </header> <!--End of header-->
+    <img id="logo" src="./images/logo.jpg" alt="Image of pub logo"> <!--logo-->
+    <nav>
+        <div class="navContainerOne"> <!-- Container for first 2 nav links -->
+            <a class="navLink" href="./index.html">Home</a>
+            <a class="navLink" href="./about.html">About</a>
+        </div>
+        <div class="navMiddle">
+            <a class="navLink" href="#">Top</a> <!--Container for the middle navLink-->
+        </div>  
+        <div class="navContainerTwo"> <!--container for last 2 nav links-->
+            <a class="navLink" href="./foodDrink.html">Food</a>
+            <a class="navLink" href="./events.html">Events</a>
+        </div> 
+    </nav>
+    
+    <section id="find-us">
+        <h2 class="contact-header">Where to find us</h2>
+        <div class="contact-container">
+            <div class="address fadeInLeft">
+                <h3>Address</h3> <br>
+                <p class="address-line">Bolitho Road</p> <br>
+                <p class="address-line">Haemoor</p> <br>
+                <p class="address-line">Penzance</p> <br>
+                <p class="address-line">TR18 3EH</p>
+                <div class="phone">
+                    <img src="./images/call_FILL0_wght400_GRAD0_opsz48 (1).png" alt="">
+                    <h3>01736 362831</h3>
+                </div>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2557.768402833437!2d-5.556186023492932!3d50.12805557153245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486ac475fc0b5755%3A0x4fb1b3cc64e84686!2sSportsmans%20Arms!5e0!3m2!1sen!2suk!4v1671187500423!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <section id="booking">
+        <h2 class="contact-header">Bookings</h2>
+
+        <div class="bookings-container">
+            <div id="restauraunt" class="bookings fadeInLeft">
+                <h3>Book a table</h3>
+                <div class="form-container">
+                    <form method="post" action="https://www.yourwebskills.com/files/examples/process.php">
+                        <input type="text" required placeholder="Your Name" id="name" name="name"> <br>
+                        <input type="email" required placeholder="Email" id="email" name="email"> <br>
+                        <input type="date" required name="date" id="date"> <br>
+                        <input type="time" required id="time" name="time"> <br>
+                        <button id="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div id="delivery" class="bookings fadeInRight">
+                <h3>Delivery</h3>
+                
+                <p id="delivery-p">Call us on <span id="contact-num">01736 362831</span> to place an order for delivery</p>
+            </div>
+        </div>
+    </section>
+    <section id="Enquiries">
+        <div class="enquiries-container">
+                <h2 class="contact-header">Enquiries</h2>
+
+                <p>Not happy with an order? Really happy with the food? let the team know and we'll get back to you ASAP.</p>
+
+            <div class="enquiries-form-container">
+                <form method="post" action="https://www.yourwebskills.com/files/examples/process.php">
+                    <input type="text" required placeholder="Your Name" id="name" name="name"> <br>
+                    <input type="email" required placeholder="Email" id="email" name="email"> <br>
+                    <input type="number" placeholder="Telephone number" id="number" name="number"> <br>
+                    <textarea name="message" required id="message" cols="45" rows="8"></textarea> <br>
+                    <button id="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <h4 class="footer-header">Useful Links</h4>
+            <ul>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+                <li><a href="https://www.facebook.com/media/set/?set=a.1000287514204730&type=3">Facebook</a></li>
+            </ul>
+        </div>
+        <div class="copyright-container">
+            <h4 class="copyright">Designed and created by Michael Algie</h4>
+            <h4 class="copyright">&copy; 2022. Michael Algie. All rights reserved</h4>
+        </div>
+    
+    </footer>
+    
+    
+</body>
+</html>
